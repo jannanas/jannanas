@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand');
+
+*{
+    font-family: 'quicksand',Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.bio{
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin-top: 4em;
+    margin-bottom: 4em;
+    font-size: large;
+    font-weight: 500;
+    color: #29272A;
+    left: 50%;
+    transform: translateX(-50%);
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.bio .small{
+    font-size: small;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.bio .title {
+    font-weight: bolder;
+    text-align: center;
+    font-size: 3em;
+}
+
+/* Navigation Bar */
+/* #mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    color: #29272A;
+} 
+
+#mainNavbar .nav-link {
+    color: #3A5A40;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #344E41;
+}
+
+.navbar.scrolled {
+    background-color: #D0E1D3;
+    transition: background-color 500ms;
+} */

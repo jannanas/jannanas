@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Quicksand');
+
+*{
+    font-family: 'quicksand',Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+/* 
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNavbar .navbar-brand {
+    color: #29272A;
+} 
+
+#mainNavbar .nav-link {
+    color: #3A5A40;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #344E41;
+}
+
+.navbar.scrolled {
+    background-color: #D0E1D3;
+    transition: background-color 500ms;
+} */
+
+  
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.goal-form {
+    display: flex;
+    flex-direction: column;
+    background: #CBD3BD;
+    padding: 2em;
+    color: #5B595F;
+    margin: 4em;
+    font-size: 1.2em;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1)
+}
+
+.goal-form div {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 1em;
+}
+
+.goal-form input {
+    border: 1px solid #588157;
+    padding: 1em;    
+    margin-left: 1em;
+    height: 50px;
+    width: 300px;
+    font-size: 0.8em;
+}
+
+button {
+    background: #588157;
+    border: none;  
+    padding: 0.5em; 
+    font-weight: bold;
+    font-size: 0.9em;
+    color: #EBEEE6;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.goal-form li, .my-goals-container li {
+    background: #CBD3BD;
+    color: #5B595F;
+    padding: 1em;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0.5em;
+    margin: 2em;
+    font-size: 1.2em;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1)
+}
+
+.my-goals-container {
+    max-height: 98vh;
+}
+
+
+section h2 {
+    text-align: center;
+    color: #3A5A40;
+    font-size: 2.5em;
+}
+
+.subgoal-form, .subgoals {
+    display: flex;
+    flex-direction: column;
+    background: #EBEEE6;
+    padding: 1em;
+    color: #5B595F;
+    margin: 2em;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    box-shadow: 0 3px 20px 0px rgba(0, 0, 0, 0.1)
+}
